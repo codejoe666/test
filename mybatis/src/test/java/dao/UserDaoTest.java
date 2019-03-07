@@ -45,7 +45,7 @@ public class UserDaoTest {
         User user=new User();
         user.setId(1);
         user.setName("hjy");
-        user.setPassword("1008611");
+        user.setPassword("1008612");
         UserDao.updateUser(user);
         test_findUserByName();
     }

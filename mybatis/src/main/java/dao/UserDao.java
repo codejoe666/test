@@ -26,7 +26,7 @@ public class UserDao {
     }
     public static void deleteUser(int i)//删除id为i的User
     {
-        session.delete("test.deleteUser",i);
+        session.delete("test.deleteUser",i);//
     }
     public static void updateUser(User user)//根据id更新User信息
     {
